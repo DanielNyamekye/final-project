@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    width: 100%;
+}
+
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#logo{
+    width: 110px;
+    height: 100px;
+    position:relative;
+    padding: 0px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+
+a.active,a:hover{
+    background: gray;
+    transition: .5s;
+}
+
+
+.first{
+    color: red;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.second-text{
+    padding-left: 20px;
+    margin-top: 15px;
+    line-height: 1.2;
+    height: 3em;
+    font-size: 20px;
+    
+
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.img1 {
+    max-width: 50%; 
+    height: 400px;
+}
+
+.image-description {
+    margin-left: 20px; 
+}
+
+.image-description p {
+    font-size: 16px; 
+}
+
+.choir{
+    color: red;
+}
+
+.choir-text{
+    line-height: 1.2;
+    height: 3em;
+    margin-top: 5px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+    word-spacing: normal;
+}
+
+.more{
+    color: red;
+    margin-top: 15px;
+}
+
+.h4{
+    margin-top: 10px;
+}
+
+.rehearsals{
+    margin-top: 5px;
+}
+
+.specials{
+    margin-top:5px ;
+}
+
+.performances{
+    margin-top: 5px;
+}
+
+.music{
+    margin-top: 5px;
+}
+
+.education{
+    margin-top: 5px;
+}
+
+.email{
+    margin-top: 5px;
+}
+
+.gmail{
+    margin-top: 5px;
+}
+
+.image-container2 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.img2 {
+    max-width: 50%; 
+    height: 400px;
+}
+
+.image-description {
+    margin-left: 20px; 
+}
+
+.image-description p {
+    font-size: 16px; 
+}
+
+.women{
+    color: red;
+}
+
+.our-women{
+    line-height: 1.2;
+    height: 3em;
+    margin-top: 5px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+    word-spacing: normal;
+}
+
+.more1{
+    color: red;
+    margin-top: 15px;
+}
+
+
+.h{
+    margin-top: 10px;
+}
+
+
+.gatherings{
+    margin-top: 5px;
+}
+
+
+.educational{
+    margin-top: 5px;
+}
+
+
+.participate{
+    margin-top: 5px;
+}
+
+.community{
+    margin-top: 5px;
+}
+
+.engage{
+    margin-top: 5px;
+}
+
+.email2{
+    margin-top: 5px;
+}
+
+.gmail2{
+    margin-top: 5px;
+}
+
+.image-container3 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.img3 {
+    max-width: 50%; 
+    height: 400px;
+}
+
+.image-description {
+    margin-left: 20px; 
+}
+
+.image-description p {
+    font-size: 16px; 
+}
+
+
+.men{
+    color: red;
+}
+
+.our-men{
+    line-height: 1.2;
+    height: 3em;
+    margin-top: 5px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+    word-spacing: normal;
+}
+
+
+.more2{
+    color: red;
+    margin-top: 15px;
+}
+
+
+.h1{
+    margin-top: 10px;
+}
+
+
+.bible-studies{
+    margin-top: 5px;
+}
+.friendships{
+    margin-top: 5px;
+}
+.community2{
+    margin-top: 5px;
+}
+.engage{
+    margin-top: 5px;
+}
+.email3{
+    margin-top: 5px;
+}
+.gmail3{
+    margin-top: 5px;
+}
+
+
+
+footer{
+  
+    background: #000;
+    height: auto;
+    width: 100vw;
+    padding: 40px;
+    color: white;
+    margin-top: 100px;
+
+    
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+
+
+.footer-bottom{
+    background: black;
+    width: 80vw;
+    padding-left: 300px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 400;
+    
+}
+

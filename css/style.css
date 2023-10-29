@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    width: 100%;
+}
+
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#logo{
+    width: 110px;
+    height: 100px;
+    position:relative;
+    padding: 0px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+
+a.active,a:hover{
+    background: gray;
+    transition: .5s;
+}
+
+.image-row {
+    display: flex;
+    width: 100%;
+    
+}
+
+.image-row img {
+    width: 33.33%;
+    height: auto;
+}
+
+.centered-text {
+    text-align: center;
+    color: red;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.box1 {
+    flex: 1;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid;
+    height: 350px;
+    margin-top: 15px;
+    font-size: 24px;
+    background-color:#DF7250 ;
+}
+
+.box2 {
+    flex: 1;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid ;
+    height: 350px;
+    margin-top: 15px;
+    font-size: 24px;
+    background-color: #A9AF9F;
+}
+
+.box3 {
+    flex: 1;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid ;
+    height: 350px;
+    margin-top: 15px;
+    font-size: 24px;
+    background-color: #ece7be;
+}
+
+p {
+    text-align: left; 
+    font-size: 30px;   
+    line-height: 1.5;  
+    margin: 10px 0;     
+    font-weight: 300
+}
+
+.Button {
+    width: 150px; 
+    height: 50px; 
+    color: black; 
+    font-weight: 700;
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer;
+    text-align: center; 
+    display: block; 
+    margin: 0 auto;
+    line-height: 50px; 
+    mix-blend-mode: soft-light;
+    stroke: #000;
+    stroke-width: 1px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Button1 {
+    background-color: #DF7250; 
+}
+
+.Button2 {
+    background-color:#A9AF9F ; 
+}
+
+.Button3 {
+    background-color: #ece7be;
+}
+
+.CONNECT{
+    text-align: center;
+}
+
+h2{
+    justify-content: last baseline;
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    flex: 1;
+    margin: 10px;
+   
+}
+
+.box img {
+    width:100% ;
+    height: 400px;
+}
+
+
+
+.full-screen-box {
+    width: 100%;
+    background-color: #ece7be; /* Background color */
+    text-align: center;
+    position: relative;
+    height: 320px;
+}
+
+.logo {
+    width: 100px; 
+    position: absolute;
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box-content {
+    padding: 20px;
+    color: #000; 
+    margin-top: 15px;
+    
+}
+
+.box-content h1{
+    font-size: 48px;
+    font-weight: 900px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.box-content p{
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.button-container {
+    text-align: center;
+}
+
+.custom-button {
+    background-color: white; 
+    color:black;
+    padding: 15px 30px;
+    border: black solid 1px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin-top: 20px;
+}
+
+.image-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image {
+    width: 400px;
+    height: 390px;
+    object-fit: cover;
+    
+}
+
+.middle-image {
+    transform: translateY(222px); 
+}
+
+footer{
+  
+    background: #000;
+    height: auto;
+    width: 100vw;
+    padding: 40px;
+    color: white;
+    margin-top: 300px;
+
+    
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+
+
+.footer-bottom{
+    background: black;
+    width: 80vw;
+    padding-left: 300px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 400;
+    
+}
+
+@media (max-width:768px){
+
+
+
+
+}
+
+@media (min-width:768px){
+
+
+
+
+}
